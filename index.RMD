@@ -1,0 +1,17 @@
+---
+title: "flexdasboard_test"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+2 + 2
+```
+
+## R Markdown
+
+Some text
